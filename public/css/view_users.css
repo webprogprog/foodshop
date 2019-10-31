@@ -1,0 +1,94 @@
+.user-heading-parent, .users-list-parent {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    padding: .25em 0;
+}
+
+.user-heading-parent {
+    background-color: lightgray;
+    font-weight: 700;
+    border-bottom: solid 2px black;
+}
+
+.user-heading, .users-list-child {
+    width: 25%;
+    padding: .25em 0;
+}
+
+.user-heading.id, .users-list-child.id {
+    width: 5%;
+}
+
+.user-heading.username, .users-list-child.username {
+    width: 45%;
+}
+
+.users-list-parent {
+    flex-direction: column;
+}
+
+.users-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+ 
+}
+
+.page-item {
+    text-decoration: none;
+    padding: 1em;
+    font-size: 14pt;
+    background-color:lightgray;
+    margin: 0 .25em;
+    width: 2%;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.page-item.active { 
+    background-color: gray;
+    color: white;
+    font-weight: 700;
+}
+
+.page-item a {
+    text-decoration: none;
+    color: gray;
+}
+
+.search-user {
+    display: flex;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.input {
+    font-size: 16pt;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px 1px lightgray;
+}
+
+.input.text {
+    width: 50%;
+    padding: 5px 10px;
+}
+
+.input.button {
+    padding: .25em;
+    font-size: 14pt;
+    margin: 0 2em;
+    width: 10%;
+    font-weight: 700;
+}
